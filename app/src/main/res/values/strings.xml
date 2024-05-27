@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Noovly</string>
+    <string name="email">Email</string>
+    <string name="uid">Uid</string>
+</resources>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "171301031599",
+    "firebase_url": "https://noovly-d683a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "noovly-d683a",
+    "storage_bucket": "noovly-d683a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171301031599:android:70a17d054117facff5ce5a",
+        "android_client_info": {
+          "package_name": "com.example.noovly"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRyALEV8h3GvTniDqAitVeAxMlWR6jSYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

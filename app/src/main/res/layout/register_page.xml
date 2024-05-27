@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/g2"
+    android:backgroundTint="#33000000"
+    android:backgroundTintMode="src_over">
+
+    <ImageView
+        android:id="@+id/darkness"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_cover"
+        app:srcCompat="@drawable/bg" />
+
+    <ImageView
+        android:id="@+id/add_cover"
+        android:layout_width="wrap_content"
+        android:layout_height="92dp"
+        android:layout_marginTop="212dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wave" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/darkness">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:gravity="center"
+            android:text="Register"
+            android:textColor="#112D4E"
+            android:textSize="50sp" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/round_form"
+            android:drawableRight="@drawable/account"
+            android:ems="10"
+            android:fontFamily="@font/poppins_semibold"
+            android:hint="Username"
+            android:inputType="text"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:textColorHint="#AD112D4E" />
+
+        <EditText
+            android:id="@+id/email_reg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/round_form"
+            android:drawableRight="@drawable/email"
+            android:drawableTint="#AD112D4E"
+            android:ems="10"
+            android:fontFamily="@font/poppins_semibold"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:textColorHint="#AD112D4E" />
+
+        <EditText
+            android:id="@+id/pass_reg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/round_form"
+            android:drawableRight="@drawable/lock"
+            android:ems="10"
+            android:fontFamily="@font/poppins_semibold"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:textColorHint="#AD112D4E" />
+
+        <Button
+            android:id="@+id/btn_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="#112D4E"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Register" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
